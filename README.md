@@ -1,7 +1,7 @@
 # Продвинутая вёрстка в Django. Урок 1 «Верстаем видеоплеер».
 
 Учебный проект курса "От джуна до мидла" компании Devman.  
-![image](https://dvmn.org/media/lessons/ezgif.com-crop.gif)
+![image](https://dvmn.org/media/21.png)
 
 ## Задание
 
