@@ -1,0 +1,46 @@
+.player {
+  width: 800px;
+  height: 600px;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.9);
+  display: flex;
+  flex-direction: column;  
+}
+
+.video-container {
+  flex-grow: 1;  
+}
+
+.button_panel {
+  display: flex;  
+  background-color: black;
+}
+
+.player-button {
+  width: 50px;  
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+}
+
+.player-button__fullscreen {
+  margin-left: auto;  
+}
+
+.progress {
+  flex-grow: 1;  
+  background-color: grey;
+}
+
+.progress-slider {
+  background-color: red;
+}
+
+.time-indicator {
+  width: 100px;
+  text-align: center;
+  line-height: 24px;  
+  border-style: none;
+  color: white;
+  background-color: transparent;  
+}
