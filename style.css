@@ -13,6 +13,7 @@
 .button_panel {
   display: flex;  
   background-color: black;
+  line-height: 24px;
 }
 
 .player-button {
@@ -23,24 +24,28 @@
   background-color: transparent;
 }
 
-.player-button__fullscreen {
-  margin-left: auto;  
-}
-
 .progress {
-  flex-grow: 1;  
+  flex-grow: 1;
   background-color: grey;
 }
 
 .progress-slider {
   background-color: red;
+  height: 100%;
 }
 
 .time-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
-  text-align: center;
-  line-height: 24px;  
   border-style: none;
   color: white;
-  background-color: transparent;  
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.progress-panel {
+  display: flex;
+  flex-grow: 1;
 }
