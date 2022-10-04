@@ -11,7 +11,8 @@
 }
 
 .button_panel {
-  display: flex;  
+  display: flex;
+  align-items: center;
   background-color: black;
   line-height: 24px;
 }
@@ -35,17 +36,16 @@
 }
 
 .time-indicator {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100px;
   border-style: none;
   color: white;
   background-color: transparent;
   font-size: 16px;
+  text-align: center;
 }
 
 .progress-panel {
   display: flex;
+  align-items: center;
   flex-grow: 1;
 }
