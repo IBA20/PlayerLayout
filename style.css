@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   background-color: black;
-  line-height: 44px;
+  line-height: 42px;
 }
 
 .player-button {
@@ -24,6 +24,7 @@
   cursor: pointer;
   color: white;
   background-color: transparent;
+  padding: 0 6px 2px;
 }
 
 .play-button {
@@ -41,12 +42,15 @@
 }
 
 .time-indicator {
-  width: 60px;
+  width: 50px;
   border-style: none;
   color: white;
   background-color: transparent;
   font-size: 16px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 1px 1px 0;
+  line-height: 41px;
 }
 
 .progress-panel {
